@@ -1,0 +1,13 @@
+@import '../styles/variaveis.scss';
+
+header {
+    background-color: $corPrincipal;
+    position: sticky;
+    top: 0;
+    left: 0;
+    .container{
+        @include flex-center;
+        justify-content: space-between;
+        padding: $paddingPadrao;
+    }
+}
